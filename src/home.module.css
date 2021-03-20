@@ -1,0 +1,201 @@
+.LoginPane {
+	width: 100%;
+	margin: 0;
+	background-color: white;
+	height: 100vh;
+	min-width: 200px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 2vh;
+}
+.LogoBanner {
+	overflow: hidden;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	padding-bottom: 5vh;
+	height: 38vh;
+}
+.LogoContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	height: 20vh;
+}
+.Logo {
+	max-width: 100%;
+	max-height: 100%;
+}
+.LogoName {
+	margin-left: 1vw;
+	margin-right: 1.5vw;
+	align-self: center;
+	color: black;
+	font-size: 34px;
+	font-family: "Architects Daughter", cursive;
+}
+.Itemlist {
+	display: flex;
+	font-size: 25px;
+	margin-top: 8vh;
+}
+.Underbar {
+	position: absolute;
+	margin-top: 40px;
+	width: 60px;
+	height: 1px;
+	background: black;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.active ~ .Underbar {
+	/* a:nth-of-type(1):hover ~ .Underbar { */
+	margin-left: 0px;
+	width: 60px;
+}
+
+.activeMargin ~ .Underbar {
+	/* a:nth-of-type(2):hover ~ .Underbar { */
+	margin-left: 110px;
+	width: 85px;
+}
+.LoginLink {
+	color: black;
+	opacity: 0.3;
+	padding: 0;
+	cursor: default;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.LoginLink:hover,
+.LoginLink:active,
+.active,
+.active:hover {
+	opacity: 1;
+	color: black;
+	cursor: default;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.activeMargin,
+.activeMargin:hover {
+	opacity: 1;
+	margin-left: 50px;
+	color: black;
+	cursor: default;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.SignLink {
+	margin-left: 50px;
+	opacity: 0.3;
+	border: none;
+	color: black;
+	cursor: default;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.SignLink:hover {
+	opacity: 1;
+	color: black;
+	cursor: default;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.DSCLogoContainer {
+	position: absolute;
+	width: inherit;
+	display: flex;
+	justify-content: center;
+	min-width: 280px;
+	bottom: 10px;
+}
+.DSCLogo {
+	margin: auto auto;
+	max-width: 320px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+.message {
+	color: #ff7d4b;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 15px;
+	/* display: none; */
+}
+@media screen and (max-width: 600px) {
+	.LoginPane {
+		height: auto;
+	}
+	.DSCLogoContainer {
+		position: relative;
+	}
+	.DSCLogo {
+		margin-top: 20px;
+	}
+	.DSCLogoContainer {
+		position: relative;
+		margin-top: 50px;
+	}
+	.DSCLogo {
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.LoginPane {
+		min-width: 280px;
+		width: 28vw;
+		padding-left: 1vw;
+		padding-top: 2vh;
+	}
+	.LogoBanner {
+		flex-direction: row;
+		padding-left: 1vw;
+		padding-bottom: 0;
+		margin-top: 4vh;
+		height: 17vh;
+	}
+	.LogoContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: auto;
+		height: 17vh;
+	}
+	.Logo {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.LogoName {
+		margin-left: 1vw;
+		margin-right: 1.5vw;
+		align-self: center;
+		color: black;
+		font-size: 4vw;
+		font-family: "Architects Daughter", cursive;
+	}
+
+	@media only screen and (max-width: 1120px) {
+		.LoginPane {
+			width: auto;
+			height: 100vh;
+		}
+		.LogoBanner {
+			margin-top: 20px;
+			height: 25vh;
+			flex-direction: column;
+		}
+		.LogoContainer {
+			height: 15vh;
+		}
+		.LogoName {
+			font-size: 40px;
+		}
+		.Itemlist {
+			margin-top: 30px;
+		}
+	}
+}
