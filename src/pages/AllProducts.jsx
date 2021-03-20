@@ -10,6 +10,7 @@ import ProductCategories from '../components/productCategories'
 function AllProducts() {
     const [page,setPage] = useState(0)
     const [rent,setRent] = useState(true)
+    const headings = [""," / Blood Pressure Monitor"," / Pulse Oximeter"," / Oxygen Cylinder"," /  Bottle Stand"," / Strecher"," / Walker"]
     return (
         <div className={classes.mainContainer}>
             <div className={classes.nav}>
@@ -18,8 +19,8 @@ function AllProducts() {
             </div>
             <div className={classes.content}>
                 <div className={classes.header}>
-                    <div className={classes.heading}> Rent Supplies </div>
-                    <div className={classes.subHeading}> / Pulse Oximeter </div>
+                    <div className={page==0?classes.heading:classes.headingInactive}> Rent Supplies </div>
+                    <div className={classes.subHeading}>{headings[page]}</div>
                     <button className = {classes.cartButton}> <img className={classes.cartIcon} src={cartIcon}/> Cart </button>
                 </div>
                 <ProductCategories />

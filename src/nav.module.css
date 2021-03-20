@@ -37,9 +37,22 @@
   font-weight: 900;
   color:  rgb(24, 156, 238);
 }
+.headingInactive{
+  margin-right: 10px;
+  font-size: 45px;
+  /* font-weight: 900; */
+  color:  rgb(24, 156, 238);
+  opacity: 0.22;
+}
 .subHeading{
   font-size: 45px;
   color:  rgb(24, 156, 238);
+}
+.cartButton:focus{
+  outline:none;
+}
+.cartButton:active{
+  background-color: rgb(17, 121, 201);
 }
 .cartButton{
   margin-left: auto;
@@ -50,6 +63,9 @@
   border: none;
   border-radius: 25px;
   font-size: 30px;
+}
+.cartButton:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.11);
 }
 .cartIcon{
   margin-right: 10px;
