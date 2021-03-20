@@ -12,8 +12,9 @@ Get the not so easily available medical equipments and assistance easily using M
 
 ![Generic badge](https://img.shields.io/badge/Medicist-Medical_Assistance-orange) 
 
-#### Link for [demo](https://medicist.akshatvg.com) 
-[![Generic badge](https://img.shields.io/badge/view-video-orange)](https://medicist.akshatvg.com)
+#### Link for [website demo](https://medicist.akshatvg.com) 
+[![Generic badge](https://img.shields.io/badge/view-wireframes-green)](https://jamboard.google.com/d/1sQ-84_j1YhIETZhkrtnWkoE3oQjv9rARNVns6z3dDX8/edit?usp=sharing) [![Generic badge](https://img.shields.io/badge/view-designs-blue)](https://jamboard.google.com/d/1sQ-84_j1YhIETZhkrtnWkoE3oQjv9rARNVns6z3dDX8/edit?usp=sharing) [![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](#!)
+
 
 ## Introduction
 [Ishaan](https://github.com/ishaan14112000)'s father works in the medical equipment sales sector and lately with the sudden re-spread of COVID, he had been getting strange requests- people with low income were asking if they could borrow or rent equipment which are otherwise expensive.
@@ -29,6 +30,12 @@ We thought about this and it actually made sense. Why buy something expensive wh
 - Wheel-chair
 - Walker
 - Stretcher
+
+### Market growth potential and future:
+- **Pulse oximeter**- 60 million dollar industry by 2025
+- **BP machine**- 11.2% growth from 2021 to 2028
+- **Oxygen cylinder**- 30% growth from 2021 to 2028
+
 
 ## About Medicist
 Medicist is a cross platform web and mobile app where users can rent important equipment during the pandemic as well as get medical assistance and help.
