@@ -1,7 +1,7 @@
 .UserForm {
 	margin-top: 30px;
 	padding-right: 15px;
-	font-size: 18px;
+	font-size: 30px;
 }
 .UserButtons {
 	padding-right: 15px;
@@ -14,10 +14,12 @@
 	border-width: 0 0 1px;
 	border-color: black;
 	width: 100%;
+	font-size: 22px;
 }
 .Incorrect:focus,
 .InputField:focus {
-	border-color: #e79870;
+	outline:none;
+	border-color: #76dcf5;
 }
 .SubButton {
 	border: none;
@@ -26,14 +28,14 @@
 	padding: 3px;
 	width: 100px;
 	float: left;
-	background-color: #ff7d4b;
+	background-color: #00b8e6;
 	border-radius: 9px;
 	margin-top: 35px;
 	-webkit-transition: 0.5s ease;
 	transition: 0.5s ease;
 }
 .SubButton:hover {
-	background-color: #e79870;
+	background-color: #76dcf5;
 }
 .SubButton:active {
 	background-color: white;

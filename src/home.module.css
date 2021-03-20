@@ -21,6 +21,8 @@
 }
 
 .LoginPage {
+	overflow: hidden;
+	height: 100vh;
 	justify-content: center;
 	background-color: #00ccff;
 	display: flex;

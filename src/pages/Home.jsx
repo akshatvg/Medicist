@@ -69,21 +69,38 @@ function Home() {
                     </div>
                 </div>
                 <div className={formStyle.UserForm}>
-                    {option ?
+                    {!option ?
                         (
                             <>
                                 <input
                                     type="text"
-                                    placeholder="Email"
+                                    placeholder="Full Name"
                                     className={formStyle.InputField}
-                                    label="Username"
+                                    label="Full Name"
+                                />
+                                <input
+                                    type="text"
+                                    placeholder="email"
+                                    className={formStyle.InputField}
+                                    label="Email Address"
+                                />
+                                <input
+                                    type="text"
+                                    placeholder="Mobile Number"
+                                    className={formStyle.InputField}
+                                    label="Email Address"
                                 />
                                 <input
                                     type="password"
                                     placeholder="enter password"
                                     className={formStyle.InputField}
-                                    style={{marginTop: "25px"}}
                                     label="Password"
+                                />
+                                <input
+                                    type="password"
+                                    placeholder="re enter your password"
+                                    className={formStyle.InputField}
+                                    label="Email Address"
                                 />
                             </>
                         ) : (
@@ -91,7 +108,7 @@ function Home() {
                             <>
                                 <input
                                     type="text"
-                                    placeholder="Email I am signup"
+                                    placeholder="Email"
                                     className={formStyle.InputField}
                                     label="Username"
                                 />
@@ -111,7 +128,6 @@ function Home() {
                     <button
                         type="submit"
                         className={formStyle.SubButton}
-                    // onClick={SubmitHandler}
                     >
                         Submit
         </button>
@@ -145,13 +161,13 @@ function Home() {
                     <div className={classes.text}>
                         {
                             currentDisplay
-                                ? "Need medical assistance right at your doorstep?Don’t worry, we got you covered!"
-                                : "Need supplies, but finding them too expensive? Don’t worry, we got a solution! "
+                                ? "Need medical assistance right at your doorstep? Don’t worry, we got you covered!"
+                                : "Need supplies, but finding them too expensive? Don’t worry, we got a solution!"
                         }
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
 
     );
 }
