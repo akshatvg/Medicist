@@ -6,6 +6,7 @@
 }
 
 .product{
+	position: relative;
 	flex-grow: 1;
 	margin-top: 40px;
 	margin-left: 20px;
@@ -30,11 +31,9 @@
 }
 
 .productImage{
-	max-width: 100%;
+  max-width: 100%;
     height: auto;
-    
-    
-    
+
 }
 
 .productName{
@@ -45,21 +44,21 @@
 }
 
 .overlay {
+    display:  none;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    height: 20%;
-    width: 20%;
+    width: 100%;
+    height: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
     border-radius: 15px;
   }
-  
+
   .product:hover .overlay {
-    opacity: 1;
+    display: block;
+    opacity: 0.8;
   }
   .text {
     color: white;
