@@ -1,0 +1,47 @@
+.wave{
+    width:120%;
+    margin-top:-50%;
+    margin-left: -13%;
+    background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+    
+}
+.wave img{
+    
+  background-position: bottom;
+  height: auto;
+  max-width: 100%;
+}
+.nav {
+    top:10%;
+    left:10%;
+    max-width:78%;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    position: absolute;
+  }
+  .nav img{
+    width: 4%;
+    height: 4%;
+    float:left;
+  }
+  .main{
+      margin-left: 10%;
+  }
+  .main h1 {
+    font-weight: bold;
+    font-size: 50px;
+  } 
+  .main h2 {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  .navBarLink {
+    margin: 5px;
+  }
+  .options{
+      text-align: right;
+  }
