@@ -1,3 +1,6 @@
+.mainContainer{
+		display: flex;
+}
 .navprod{
     margin-left: 10%;
     margin-top: 30%;
@@ -7,5 +10,5 @@
     margin-top: 40%;
 }
 .nav{
-    
+
 }

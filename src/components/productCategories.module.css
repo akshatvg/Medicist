@@ -1,0 +1,35 @@
+.container{
+	padding: 20px;
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product{
+	margin-top: 40px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.11);
+	border-radius: 20px;
+}
+.product:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.32);
+}
+
+.productImageContainer{
+	width: 100px;
+}
+
+.productImage{
+	max-width: 100%;
+}
+
+.productName{
+	font-size: 20px;
+	margin-top: 20px;
+}
