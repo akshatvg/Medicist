@@ -42,7 +42,7 @@ Medicist is a cross platform web and mobile app where users can rent important e
 
 
 ## How it works
-- Say someone in your locality got tested positive and you want to check your oxygen saturation using a pulse oximeter, you can just open the app and choose the product and bid or rent it. 
+- Say someone in your locality got tested positive and you want to check your oxygen saturation using a pulse oximeter, you can just open the app and choose the product and rent it. 
 - You will need to pay the amount in advance which also consists of a caution depostion in case you damage the device. This amount will be either settled (if you damage the device) or refunded (if the device is still in working condition) when you return the device.
 - You can come back to the rented products section on our application and return the product when you feel all is good and your locality has now shown resistance to more COVID cases. The devices will be sanitised before being put on the store again.
 - In case you are sick and need help, you can schedule video conferences with nurses and doctors to help you out online.
