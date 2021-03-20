@@ -1,0 +1,96 @@
+.UserForm {
+	margin-top: 30px;
+	padding-right: 15px;
+	font-size: 18px;
+}
+.UserButtons {
+	padding-right: 15px;
+	font-size: 18px;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.InputField {
+	outline: 0;
+	border-width: 0 0 1px;
+	border-color: black;
+	width: 100%;
+}
+.Incorrect:focus,
+.InputField:focus {
+	border-color: #e79870;
+}
+.SubButton {
+	border: none;
+	color: white;
+	font-size: 20px;
+	padding: 3px;
+	width: 100px;
+	float: left;
+	background-color: #ff7d4b;
+	border-radius: 9px;
+	margin-top: 35px;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.SubButton:hover {
+	background-color: #e79870;
+}
+.SubButton:active {
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff7d4b;
+	color: #ff7d4b;
+}
+.GButton {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #ff7d4b;
+	border-radius: 9px;
+	font-weight: 600;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.GButton:hover {
+	background-color: #e79870;
+	text-decoration: none;
+	color: white;
+}
+.GButton:active {
+	text-decoration: none;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff7d4b;
+	color: #ff7d4b;
+}
+.GuestLink:hover,
+.GuestLink {
+	float: right;
+	color: #ff7d4b;
+	margin-top: 38px;
+}
+
+.Incorrect {
+	border:2px solid red;
+	outline: 0;
+	border-width: 0 0 1px;
+	width: 100%;
+	color: red;
+}
+
+@media only screen and (max-width: 1106px) and (min-width: 768px) {
+	.GuestLink:hover,
+	.GuestLink {
+		margin-top: 10px;
+		float: left;
+	}
+}
+@media only screen and (max-width: 1120px) {
+	.GuestLink:hover,
+	.GuestLink {
+		float: right;
+	}
+}

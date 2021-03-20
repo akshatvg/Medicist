@@ -5,10 +5,10 @@
     background-size: cover;
   background-repeat: no-repeat;
   padding: 15px;
-    
+
 }
 .wave img{
-    
+
   background-position: bottom;
   height: auto;
   max-width: 100%;
@@ -34,7 +34,7 @@
   .main h1 {
     font-weight: bold;
     font-size: 50px;
-  } 
+  }
   .main h2 {
     font-weight: bold;
     font-size: 34px;
