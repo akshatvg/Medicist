@@ -14,7 +14,6 @@
 	justify-content: center;
 	align-items: left;
 	display: flex;
-	flex-direction: column;
 	text-align: center;
 	width: 600px;
 	height: 350px;
@@ -32,15 +31,12 @@
 
 .productImage{
   max-width: 100%;
-    height: auto;
-
+  height: auto;
 }
 
 .productName{
-	font-size: 25px;
-	margin-left: 36px;
-    margin-bottom: 50px;
-    display: inline-block;
+  font-size: 25px;
+  display: inline-block;
 }
 
 .overlay {
