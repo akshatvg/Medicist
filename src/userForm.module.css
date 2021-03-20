@@ -39,15 +39,15 @@
 	background-color: white;
 	border-width: 1px;
 	border-style: solid;
-	border-color: #ff7d4b;
-	color: #ff7d4b;
+	border-color:#00b8e6;
+	color:#00b8e6;
 }
 .GButton {
 	text-decoration: none;
 	color: white;
 	font-size: 18px;
 	padding: 10px;
-	background-color: #ff7d4b;
+	background-color:#00b8e6;
 	border-radius: 9px;
 	font-weight: 600;
 	-webkit-transition: 0.5s ease;
@@ -63,13 +63,13 @@
 	background-color: white;
 	border-width: 1px;
 	border-style: solid;
-	border-color: #ff7d4b;
-	color: #ff7d4b;
+	border-color:#00b8e6;
+	color:#00b8e6;
 }
 .GuestLink:hover,
 .GuestLink {
 	float: right;
-	color: #ff7d4b;
+	color:#00b8e6;
 	margin-top: 38px;
 }
 
