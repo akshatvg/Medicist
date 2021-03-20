@@ -62,7 +62,7 @@ Medicist is a cross platform web and mobile app where users can rent important e
 ## Marketing and business model
 - A lot of contacts in the market are ready to fund our application owing to the surge of strange requests. 
 - This will help us not only get funding but also recognition and trust in the medical sector.
-- This will ensure tht sales teams start adopting the renting mode of *selling* equipment.
+- This will ensure that sales teams start adopting the renting mode of *selling* equipment.
 - This will help make approaching doctors and nurses easier as there'll already be a good market name to work for.
 - We will charge minor commissions from doctors and nurses everytime they get called home.
 - Nurse interaction before calling home will be free of cost.
