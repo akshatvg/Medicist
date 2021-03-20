@@ -36,7 +36,7 @@ function Home() {
 
 
     return (
-        <div className={classes.LoginPage }>
+        <div className={classes.LoginPage}>
             <div className={classes.LoginPane}>
                 <div className={classes.LogoBanner}>
                     <div className={classes.LogoContainer}>
@@ -54,7 +54,7 @@ function Home() {
                             onClick={LoginLinkHandler}
                         >
                             Login
-        </div>
+                        </div>
                         <div
                             className={
                                 option
@@ -64,7 +64,7 @@ function Home() {
                             onClick={SignLinkHandler}
                         >
                             SignUp
-        </div>
+                        </div>
                         <div className={classes.Underbar}></div>
                     </div>
                 </div>
@@ -151,9 +151,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-        <div >
-            
-        </div>
+            </div>
+
     );
 }
 export default Home;
