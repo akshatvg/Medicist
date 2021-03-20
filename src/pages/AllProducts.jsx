@@ -8,9 +8,9 @@ import ProductCategories from '../components/productCategories'
 
 
 function AllProducts() {
-    const [page,setPage] = useState(0)
+    const [page,setPage] = useState(4)
     const [rent,setRent] = useState(true)
-    const headings = [""," / Blood Pressure Monitor"," / Pulse Oximeter"," / Oxygen Cylinder"," /  Bottle Stand"," / Strecher"," / Walker"]
+    const headings = [""," / Blood Pressure Monitor"," / Pulse Oximeter"," / Oxygen Cylinder"," /  Drip Stand"," / Strecher"," / Walker"]
     return (
         <div className={classes.mainContainer}>
             <div className={classes.nav}>

@@ -18,11 +18,11 @@ function productCategories() {
 			image: oximeter,
 		},
 		{
-			name: "Oxyget Cyllinder",
+			name: "Oxygen Cylinder",
 			image: cylinder,
 		},
 		{
-			name: "Bottle Stand",
+			name: "Drip Stand",
 			image: drip,
 		},
 		{
