@@ -39,8 +39,13 @@ function assistance() {
 						<div className={classes.product} key={"product"+index} >
 						<div className={classes.productImageContainer}>
 						<img src={obj.image} className={classes.productImage} key={"productImage"+index}/>
+                        <div className={classes.overlayContainer}>
+                        <div className={classes.overlay}>
+                                <div className={classes.text}>+91 9678953245</div>
+                            </div></div>
 						</div>
 							<span className={ classes.productName } key={"productName"+index} > {obj.name} </span>
+                            
 						</div>
 					)
 				})
