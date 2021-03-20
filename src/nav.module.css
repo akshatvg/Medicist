@@ -23,4 +23,5 @@
     background-color: rgb(24, 156, 238);
     max-width: 10vh;
     height: 100vh;
+    max-height:100vh;
 }
