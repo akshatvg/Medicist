@@ -1,35 +1,112 @@
-# Repo Name
+# Medicist
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/<Repo>?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/<Repo>?style=social)](https://github.com/akshatvg/<Repo>/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/<Repo>/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/Medicist?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/Medicist?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/Medicist?style=social)](https://github.com/akshatvg/Medicist/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/Medicist?style=social&logo=git)](https://github.com/akshatvg/Medicist/network)
 
-Project description comes here.
+Get the not so easily available medical equipments and assistance easily using Medicist.
 
 <p align="center">
 <a href="#!">
-<img src="https://github.com/akshatvg/<Repo>/blob/master/Assets/app-icon-64%402x.png" width="120px" height="120px" alt="<Repo> Logo"/>
+<img src="https://github.com/akshatvg/Medicist/blob/master/public/logo.png?raw=true" width="200px" alt="Medicist Logo"/>
 </a>
 </p>
 
-![Generic badge](https://img.shields.io/badge/Random-Swag-orange) 
+![Generic badge](https://img.shields.io/badge/Medicist-Medical_Assistance-orange) 
 
-#### Link for [demo](#!) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](#!)
+#### Link for [demo](https://medicist.akshatvg.com) 
+[![Generic badge](https://img.shields.io/badge/view-video-orange)](https://medicist.akshatvg.com)
 
-## Useful Links
+## Introduction
+[Ishaan](https://github.com/ishaan14112000)'s father works in the medical equipment sales sector and lately with the sudden re-spread of COVID, he had been getting strange requests- people with low income were asking if they could borrow or rent equipment which are otherwise expensive.
 
-- [Actual Website](#!)
+We thought about this and it actually made sense. Why buy something expensive which you'll only use a few times or for a few months?
+
+## Market research
+### Equipment in demand
+- Pulse oximeter
+- BP machine
+- Oxygen cylinder
+- Bottle stand
+- Wheel-chair
+- Walker
+- Stretcher
+
+## About Medicist
+Medicist is a cross platform web and mobile app where users can rent important equipment during the pandemic as well as get medical assistance and help.
+
+
+## How it works
+- Say someone in your locality got tested positive and you want to check your oxygen saturation using a pulse oximeter, you can just open the app and choose the product and bid or rent it. 
+- You will need to pay the amount in advance which also consists of a caution depostion in case you damage the device. This amount will be either settled (if you damage the device) or refunded (if the device is still in working condition) when you return the device.
+- You can come back to the rented products section on our application and return the product when you feel all is good and your locality has now shown resistance to more COVID cases. The devices will be sanitised before being put on the store again.
+- In case you are sick and need help, you can schedule video conferences with nurses and doctors to help you out online.
+- You can also choose to book a nurse to visit you home.
+- Before calling them home, you can interact with them over a video call and only call them if you feel they are friendly and will gel well with you.
+
+
+## Features
+- Renting equipment
+- Real time web conferencing with experienced nurses and doctors
+- Call nurse home
+- Interact with nurse over video call before finalising them
+- Eliminates need to purchase equipment
+- Simple and clean UI/UX
+- Help mode
+
+
+## Target audience
+- People who are conscious and scared but don't want to invest too much money will find this helpful
+- Nurses and doctors will get another medium to be more approachable get more contacts and patients
+- Low income group people staying in hotspots
+
+
+## Marketing and business model
+- A lot of contacts in the market are ready to fund our application owing to the surge of strange requests. 
+- This will help us not only get funding but also recognition and trust in the medical sector.
+- This will ensure tht sales teams start adopting the renting mode of *selling* equipment.
+- This will help make approaching doctors and nurses easier as there'll already be a good market name to work for.
+- We will charge minor commissions from doctors and nurses everytime they get called home.
+- Nurse interaction before calling home will be free of cost.
+- First doctor consultation online will be free and then coupon business model will be implemented (similar to how Zomato works).
+- Commissions will be charged upon all rented products.
+
+
+## Tech Stack
+- **Front-end:** ReactJS, Material UI, JavaScript
+- **Back-end:** NodeJS, MongoDB, JavaScript
+- **Design and PPT:** AdobeXD
+- **Deployment:** Heroku and Netlify
+- **Web Conferencing**: Dyte
+- **App:** Java
+
 
 ## Requirements
+- The source code of this project is written in **`ReactJS`** and **`Node.js`**. So, you need to install `Node.js` to run this project.
+- We use the [Dyte SDK](https://dyte.in/) for Web RTC so you need to create an account there and keep all their tokens and API keys ready.
 
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/<Repo>?logo=javascript&style=social)](https://github.com/akshatvg/)
 
-The source code of this project is written in **`HTML/CSS/JS`**. So, you do not require anything extra to run this project.
+## Instructions to run front-end
+```bash
+$ git clone https://github.com/akshatvg/Medicist
+$ cd Medicist
+$ npm install
+$ npm start
+```
 
-## Instructions
 
-[![chrome](https://img.shields.io/badge/Open-index.html-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#!)
+## Instructions to run back-end
+```bash
+$ git clone https://github.com/akshatvg/Medicist
+$ cd Medicist
+$ npm install
+$ node app.js
+```
 
-Extract the folder and run `index.html`
+## Contributors
+- [Aditya Rathore](https://github.com/Adictya)
+- [Akshat Gupta](https://github.com/akshatvg)
+- [Ishaan Jain](https://github.com/ishaan14112000)
+- [Muskan Tewari](https://github.com/muskantewari)
+- [Vidhi Agarwal](https://github.com/vidhi-agarwal)
 
 
 ## Need help?
@@ -78,9 +155,9 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/<Repo>/blob/master/LICENSE)**
+**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/Medicist/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/akshatvg/<Repo>?style=social&logo=github)](https://github.com/akshatvg/<Repo>/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
+[![GitHub license](https://img.shields.io/github/license/akshatvg/Medicist?style=social&logo=github)](https://github.com/akshatvg/Medicist/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
 
 ---------
 
