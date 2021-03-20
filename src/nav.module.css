@@ -2,13 +2,26 @@
 		display: flex;
 }
 .navprod{
-    margin-left: 10%;
-    margin-top: 30%;
+    display: block;
+    margin-left: 4%;
+    margin-top: 200px;
+    z-index: 0;
+    padding: 18px;
+    
+  float: left;
 }
 .navassis{
-    margin-left: 10%;
-    margin-top: 40%;
+    display: block;
+    margin-left: 4%;
+    margin-top: 200px;
+    z-index: 1;
+    padding: 18px;
+    
+  float: left;
 }
 .nav{
-
+    background-color: rgb(24, 156, 238);
+    margin-right: -80%;
+    max-width: 10vh;
+    height: 100vh;
 }

@@ -16,6 +16,10 @@ function allProducts() {
             <div className={classes.content}>
                 <ProductCategories/>
             </div>
+        <>
+        <div className={classes.nav}>
+        <img src={navim1} alt="prod" className={classes.navprod} />
+        <img src={navim2} alt="assis" className={classes.navassis} />
         </div>
 
     );
