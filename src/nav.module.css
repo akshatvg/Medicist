@@ -1,5 +1,5 @@
 .mainContainer{
-		display: flex;
+  display: flex;
 }
 .navprod{
     display: block;
@@ -23,4 +23,34 @@
     background-color: rgb(24, 156, 238);
     max-width: 10vh;
     height: 100vh;
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  margin-bottom: 0px;
+}
+.heading{
+  margin-right: 10px;
+  font-size: 45px;
+  font-weight: 900;
+  color:  rgb(24, 156, 238);
+}
+.subHeading{
+  font-size: 45px;
+  color:  rgb(24, 156, 238);
+}
+.cartButton{
+  margin-left: auto;
+  height: 80px;
+  width: 200px;
+  color: white;
+  background-color: rgb(24, 156, 238);
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+}
+.cartIcon{
+  margin-right: 10px;
+  padding-top: 5px;
 }
