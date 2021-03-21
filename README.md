@@ -14,7 +14,7 @@ Get the not so easily available medical equipments and assistance easily using M
 
 #### Link for [website demo](https://medicist.akshatvg.com)
 
-[![Generic badge](https://img.shields.io/badge/view-wireframes-green)](https://jamboard.google.com/d/1sQ-84_j1YhIETZhkrtnWkoE3oQjv9rARNVns6z3dDX8/edit?usp=sharing) [![Generic badge](https://img.shields.io/badge/view-designs-blue)](https://jamboard.google.com/d/1sQ-84_j1YhIETZhkrtnWkoE3oQjv9rARNVns6z3dDX8/edit?usp=sharing) [![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](#!)
+[![Generic badge](https://img.shields.io/badge/view-wireframes-green)](https://jamboard.google.com/d/1sQ-84_j1YhIETZhkrtnWkoE3oQjv9rARNVns6z3dDX8/edit?usp=sharing) [![Generic badge](https://img.shields.io/badge/view-figma_designs-blue)](https://www.figma.com/proto/2JqPjxC7OP5W5Jhq4CGryH/Medicist?node-id=1%3A8&scaling=contain) [![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](#!)
 
 ## Introduction
 
@@ -51,7 +51,7 @@ Medicist is a cross platform web and mobile app where users can rent important e
 - You can come back to the rented products section on our application and return the product when you feel all is good and your locality has now shown resistance to more COVID cases. The devices will be sanitised before being available again.
 - In case you are sick and need help, you may schedule video conferences with nurses and doctors to help you out online.
 - You may also choose to book a nurse to visit you at your place.
-- Before calling them to you place, you can interact with them over a video call and only call them if you feel they are friendly and will gel well with you.
+- Before calling them to your place, you can interact with them over a video call and only call them if you feel they are friendly and will gel well with you.
 
 ## Features
 
@@ -61,13 +61,12 @@ Medicist is a cross platform web and mobile app where users can rent important e
 - Interact with nurse over video call before finalising them
 - Eliminates need to purchase equipment
 - Simple and clean UI/UX
-- Help mode
 
 ## Target audience
 
 - People who are conscious and scared but don't want to invest too much money will find this helpful.
 - Nurses and doctors will get another medium to be more approachable and connect with patients.
-- Low income group people staying in hotspots
+- Low income group people staying in hotspots.
 
 ## Marketing and business model
 
@@ -83,15 +82,15 @@ Medicist is a cross platform web and mobile app where users can rent important e
 ## Tech Stack
 
 - **Front-end:** ReactJS, Material UI, JavaScript
-- **Back-end:** NodeJS, MongoDB, JavaScript
-- **Design and PPT:** AdobeXD
+- **Back-end:** GoLang, PostgreSQL
+- **Design and PPT:** AdobeXD and Figma
 - **Deployment:** Heroku and Netlify
 - **Web Conferencing**: Dyte
 - **App:** Java
 
 ## Requirements
 
-- The source code of this project is written in **`ReactJS`** and **`Node.js`**. So, you need to install `Node.js` to run this project.
+- The source code of this project is written in **`ReactJS`** and **`GoLang`**. So, you need to install `Node.js` & `Go` to run this project.
 - We use the [Dyte SDK](https://dyte.in/) for Web RTC so you need to create an account there and keep all their tokens and API keys ready.
 
 ## Instructions to run front-end
@@ -103,20 +102,13 @@ $ npm install
 $ npm start
 ```
 
-## Instructions to run back-end
-
-```bash
-$ git clone https://github.com/akshatvg/Medicist
-$ cd Medicist
-$ npm install
-$ node app.js
-```
 
 ## Contributors
 
 - [Aditya Rathore](https://github.com/Adictya)
 - [Akshat Gupta](https://github.com/akshatvg)
 - [Ishaan Jain](https://github.com/ishaan14112000)
+- [Muskan Rastogi](https://github.com/muskanrastogi1)
 - [Muskan Tewari](https://github.com/muskantewari)
 - [Vidhi Agarwal](https://github.com/vidhi-agarwal)
 

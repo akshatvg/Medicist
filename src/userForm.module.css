@@ -1,6 +1,7 @@
 .UserForm {
 	margin-top: 30px;
 	padding-right: 15px;
+	margin-left: 30px;
 	font-size: 30px;
 }
 .UserButtons {
@@ -8,11 +9,14 @@
 	font-size: 18px;
 	-webkit-transition: 0.5s ease;
 	transition: 0.5s ease;
+	margin-left: 30px;
 }
 .InputField {
 	outline: 0;
 	border-width: 0 0 1px;
 	border-color: black;
+	height: 40px;
+	margin-top: 10px;
 	width: 100%;
 	font-size: 22px;
 }
@@ -25,7 +29,8 @@
 	border: none;
 	color: white;
 	font-size: 20px;
-	padding: 3px;
+	padding: 12px;
+	cursor: pointer;
 	width: 100px;
 	float: left;
 	background-color: #00b8e6;
@@ -37,7 +42,7 @@
 .SubButton:hover {
 	background-color: #76dcf5;
 }
-.SubButton:active {
+.SubButton:active,.SubButton:focus {
 	background-color: white;
 	border-width: 1px;
 	border-style: solid;
