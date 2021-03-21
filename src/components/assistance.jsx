@@ -81,7 +81,7 @@ function assistance() {
                                 <div className={
                                     classes.text
                                 }>
-                                    <a href="http://dytecall.akshatvg.com/host?meetingId=0e8f9406-3032-4cf0-9c04-4cd2e94dbd04&roomName=pollen-cylinder"
+                                    <a href="https://video-call-dyte.herokuapp.com/host?meetingId=bfc6d780-9ee1-4997-b5ae-804b8be6c15b&roomName=detailed-buzzard"
                                         style={
                                             { color: "white" }
                                     }>Video Conference with Professional</a>
