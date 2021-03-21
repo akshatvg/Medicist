@@ -16,7 +16,10 @@ Get the not so easily available medical equipments and assistance easily using M
 
 #### Link for [video call website demo (using Dyte)](https://dytecall.akshatvg.com/)
 
+
 [![Generic badge](https://img.shields.io/badge/view-wireframes-green)](https://jamboard.google.com/d/1sQ-84_j1YhIETZhkrtnWkoE3oQjv9rARNVns6z3dDX8/edit?usp=sharing) [![Generic badge](https://img.shields.io/badge/view-figma_designs-blue)](https://www.figma.com/proto/2JqPjxC7OP5W5Jhq4CGryH/Medicist?node-id=1%3A8&scaling=contain) [![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](#!)
+
+**NOTE:** *The code for dyte has been pushed and deployed from the [video-call](https://github.com/akshatvg/Medicist/tree/video-call) branch.*
 
 ## Introduction
 
