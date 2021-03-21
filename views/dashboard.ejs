@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Medicist</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css"
+    integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="root">
+    <h2>Your meeting has been created. Join the meeting to start interacting.</h2>
+    <h4>Meeting ID - <%=meetingId%></h4>
+    <h4>Room Name - <%=roomName%></h4>
+    <br>
+    <br>
+    <button class="join-meeting-button pure-button pure-button-primary"
+      onclick="location.href='/participant?meetingId=<%=meetingId%>&roomName=<%=roomName%>';">Join as
+      User</button>
+    <br>
+    <button class="join-meeting-button pure-button pure-button-primary"
+      onclick="location.href='/host?meetingId=<%=meetingId%>&roomName=<%=roomName%>';">Join as Nurse/Doctor</button>
+  </div>
+</body>
+
+</html>

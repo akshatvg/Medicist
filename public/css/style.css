@@ -1,0 +1,50 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #1E4FA1;
+}
+
+h4 {
+  margin: 0.2rem;
+}
+
+body {
+  background-color: #04ACE8;
+  color: #ffffff;
+}
+
+.create-meeting-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.create-meeting-input {
+  width: 20%;
+  min-width: 100px;
+}
+
+.create-meeting-button {
+  margin-left: 1rem;
+}
+
+.join-meeting-button {
+  width: 20%;
+  min-width: 100px;
+}

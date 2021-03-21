@@ -1,0 +1,16 @@
+{
+    "name": "dyte Sample App",
+    "repository": "https://github.com/dyte-in/web-integration-example",
+    "keywords": ["dyte", "express", "node"],
+    "env": {
+        "DYTE_ORG_ID": {
+            "description": "Organization ID for dyte."
+        },
+        "DYTE_API_KEY": {
+            "description": "API KEY for dyte organization."
+        }, 
+        "DYTE_API_BASE_URL": {
+            "description": "Base URL for calling dyte APIs"    
+        }
+    }
+  }

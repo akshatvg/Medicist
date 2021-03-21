@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Medicist || Interact</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css"
+    integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="root">
+    <img alt="Medicist" src="/logo/logo.png" width="20%" style="border-radius: 10px;">
+    <h2>Welcome to the Medicist Nurse interaction centre.</h3>
+      <h3>Create a meeting to get started:
+    </h2>
+    <form class="pure-form create-meeting-form" action="/meeting" method="POST">
+      <input class="create-meeting-input" width="50%" type="text" name="title" placeholder="Meeting title" />
+      <button class="pure-button pure-button-primary create-meeting-button" type="submit">Create Meeting</button>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdn.dyte.in/lib/dyte.css" />
+  <title>Video Call || Medicist</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://cdn.dyte.in/lib/dyte.js"></script>
+  <script>
+    const meetingUserAuthToken = "<%=authToken%>";
+    const client = new DyteClient({ clientId: '<%=orgId%>' });
+    const success = client.connect();
+    const meeting = client.Meeting({
+      roomName: '<%=roomName%>',
+      authToken: meetingUserAuthToken,
+      apiBase: '<%=baseURL%>'
+    });
+    meeting.init("root");
+  </script>
+</body>
+
+</html>
